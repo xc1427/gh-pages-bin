@@ -1,0 +1,19 @@
+{
+  "name": "@xc1427/gh-pages-bin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "github-pages-commit": "bin/commit.js",
+    "github-pages-push": "bin/push.js",
+    "github-pages-deploy": "bin/deploy.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  }
+}
