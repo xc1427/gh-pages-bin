@@ -1,18 +1,28 @@
 {
   "name": "@xc1427/gh-pages-bin",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2-rc3",
+  "description": "Building a simple command line tool with npm demo",
   "main": "index.js",
+  "files": [
+    "bin"
+  ],
   "bin": {
     "github-pages-commit": "bin/commit.js",
     "github-pages-push": "bin/push.js",
     "github-pages-deploy": "bin/deploy.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "npm publish --access-public"
   },
-  "author": "",
+  "author": "Chen XI <xichen1427@gmail.com>",
+  "bugs": "https://github.com/xc1427/gh-pages-bin/issues",
   "license": "ISC",
+  "keywords": ["cli", "demo", "npm"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xc1427/gh-pages-bin.git"
+  },
   "dependencies": {
     "shelljs": "^0.8.3"
   }
